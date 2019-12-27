@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title> Form Validation </title>
+
+
+</head>
+
+<body>
+
+    <form action="/" method="GET" class="forms-validation">
+
+
+        <div class="container">
+            <div class="form">
+                <label for="name">First Name:</label> <br>
+                <input class="case name" name="name" type="text" v-model="name">
+            </div>
+
+            <div class="form">
+                <label for="Lastname">Last name:</label> <br>
+                <input class="case Lastname" name="Lastname" type="text" v-model="Lastname">
+            </div>
+
+            <div class="form">
+                <label for="Address">Address:</label> <br>
+                <input class="case Address" name="Address" type="text" v-model="Address">
+            </div>
+
+            <div class="form">
+                <label for="Email Address">E-mail Address:</label> <br>
+                <input class="case Email-Address" name="Email Address" type="text" v-model="Email-Addresse">
+            </div>
+
+            <div class="form">
+                <label for="password">Password:</label> <br>
+                <input class="case password" name="password" type="password">
+            </div>
+
+            <div class="form">
+                <label for="Comments">Comments:</label> <br>
+                <textarea class="case comments" rows="3" cols="20"> </textarea>
+            </div>
+            <div class="button">
+
+
+                <input class="btn" id="button-send" value="Send" name="Send" type="submit">
+
+
+                <input class="btn" id="button-reset" value="Reset" name="Reset" type="button">
+
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+
+</body>
+
+</HTML>
